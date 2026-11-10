@@ -102,3 +102,20 @@ Suggested 60-second structure:
 
 ---
 This is a user workflow guide, not a modification of MoneyPrinterTurbo's application code. Provider pricing, quotas, and Colab availability can change; verify them at the time of use.
+
+
+## 9. Project-specific progress and current troubleshooting notes
+
+The maintained fork is [markfox456-crypto/MoneyPrinterTurbo](https://github.com/markfox456-crypto/MoneyPrinterTurbo). The Colab notebook in this repository now clones this fork (rather than the upstream author's repository), so the running app matches the code and documentation tracked here.
+
+Known setup history from the user's Android workflow:
+
+- An earlier Termux checkout was cloned successfully, but Android/Termux remains outside the project's supported desktop platforms; dependencies and local video generation were not verified there.
+- The workflow moved to Google Colab with Python 3.11 and an ngrok tunnel. A tunnel was successfully opened in a later session; tunnel URLs are temporary and must never be committed here.
+- A prior attempt using a rejected ngrok token produced `ERR_NGROK_105`; this was an earlier failed attempt, not proof that the later Colab session is still broken.
+- The WebUI previously showed an “API keys needed” message. Identify the missing provider category (script/LLM, stock footage, or another selected provider) before adding anything. Do not assume the Pexels key also satisfies the LLM provider.
+- The user's last reported setup used Pexels footage, portrait 9:16, up to 3-second clips, one video per run, Edge TTS with `en-AU-Natasha-Female`, and music volume 20%. These are remembered UI settings, not a current live verification of the Colab session.
+- A media provider later stopped issuing API responses temporarily. Do not repeatedly retry a provider that is rate-limited or unavailable; check its status and use the no-paid-API assembler below if necessary.
+- The user later reported having two video clips for the cooking workflow. Their files were not present in this GitHub repository at the time of this update, so their duration, visual content, licensing and export quality have not been verified here.
+
+The target remains a 60-second, vertical creamy garlic Parmesan pasta video, controlled from Android, with no paid subscriptions or credit purchases. See [current workflow progress](USER_PROGRESS_2026-11-10.md) for the checkpoint and remaining verification steps.
