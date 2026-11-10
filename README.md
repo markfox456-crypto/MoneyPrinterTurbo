@@ -634,3 +634,13 @@ Trying to load the model directly from the local cache, if it exists.
 ## 许可证 📝
 
 点击查看 [`LICENSE`](LICENSE) 文件
+
+
+## Android + Google Colab 免费优先工作流
+
+- [Android / Colab 设置与故障排查](docs/ANDROID_FREE_WORKFLOW.md)
+- [免费 60 秒烹饪视频剪辑 Notebook](docs/Free_Cooking_Video_Assembler_Colab.ipynb)
+- [当前工作进度与验证清单](docs/USER_PROGRESS_2026-11-10.md)
+- [在 Colab 中运行本仓库 Fork](https://colab.research.google.com/github/markfox456-crypto/MoneyPrinterTurbo/blob/main/docs/MoneyPrinterTurbo.ipynb)
+
+该流程优先使用免费资源，但不保证无限制、无需 API Key 的 AI 生成。请勿将 API Key、ngrok Token 或本地密钥配置提交到 GitHub。
