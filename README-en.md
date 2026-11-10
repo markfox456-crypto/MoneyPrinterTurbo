@@ -657,3 +657,13 @@ Click to view the [`LICENSE`](LICENSE) file
 ### Editable local video projects
 
 Use [revision-aware local projects](docs/video-projects.md) to replace prepared scene media, compare revisions and rebuild only affected stages. The opt-in CLI preserves verified artifacts and the last successful export; it makes no provider calls or automatic posts.
+
+
+## Android + Google Colab (free-first) workflow
+
+- [Android / Colab setup and troubleshooting](docs/ANDROID_FREE_WORKFLOW.md)
+- [Free 60-second cooking-video assembler notebook](docs/Free_Cooking_Video_Assembler_Colab.ipynb)
+- [Current user workflow progress and verification checklist](docs/USER_PROGRESS_2026-11-10.md)
+- [Run the Colab notebook for this fork](https://colab.research.google.com/github/markfox456-crypto/MoneyPrinterTurbo/blob/main/docs/MoneyPrinterTurbo.ipynb)
+
+This workflow is free-first, not an unlimited keyless AI-generation promise. Never commit API keys, ngrok tokens, or populated local configuration files.
